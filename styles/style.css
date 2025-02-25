@@ -300,8 +300,6 @@ cursor: pointer;
   white-space: nowrap;
 }
 
-
-
 /* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
