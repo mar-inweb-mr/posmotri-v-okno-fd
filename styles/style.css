@@ -88,12 +88,12 @@ ol {
   appearance: none;
 }
 
-.search-form__textfield :focus {
+.search-form__textfield:focus {
   outline: none;
   border: none;
 }
 
-.search-form__textfield :has(:focus-visible) {
+.search-form__textfield:has(:focus-visible) {
   outline: 1px solid #000;
 }
 
@@ -120,7 +120,7 @@ cursor: pointer;
   cursor: pointer;
 }
 
-.search-form__pseudo-checkbox ::after {
+.search-form__pseudo-checkbox::after {
   content: "";
   background-color: #fff;
   width: 15px;
@@ -133,6 +133,7 @@ cursor: pointer;
 }
  
 .button {
+  text-decoration: none;
   background-color: transparent;
   font-family: Fira Sans Condensed, sans-serif;
   font-weight: 700;
@@ -144,15 +145,15 @@ cursor: pointer;
   cursor: pointer;
 }
 
-.button :active {
+.button:active {
   background-color: #545050;
 }
 
-.button :hover {
+.button:hover {
   text-decoration: underline;
 }
 
-.button :focus-visible {
+.button:focus-visible {
   outline: none;
 }
 
@@ -216,17 +217,17 @@ cursor: pointer;
   background-color: #545050;
 }
 
-.content__card-link :active {
+.content__card-link:active {
   background-color: #545050;
 }
 
-.content__card-link :hover {
+.content__card-link:hover {
   text-decoration: underline;
   color: #fff;
   text-decoration-skip-ink: none;
 }
 
-.content__card-link :focus-visible {
+.content__card-link:focus-visible {
   outline: 1px solid #fff;
 }
 
