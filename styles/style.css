@@ -80,7 +80,7 @@ ol {
   outline: 1px solid #FFFFFF;
 }
 
-.search-form__label:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
   color:#FFFFFF;
 }
