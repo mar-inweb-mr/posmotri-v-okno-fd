@@ -181,7 +181,7 @@ cursor: pointer;
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 5px;
   width: 399px;
   height: 294px;
   overflow: auto;
@@ -286,10 +286,11 @@ cursor: pointer;
   font-family: Oswald, sans-serif;
   font-size: 30px;
   font-weight: 700;
-  line-height: 80%;
+  line-height: 94%;
   text-transform: uppercase;
   white-space: nowrap;
   text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .content__video-card-description {
